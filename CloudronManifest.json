@@ -1,0 +1,22 @@
+{
+  "id": "org.nodered.contrib",
+  "title": "Node-RED",
+  "author": "mlopezr",
+  "description": "file://DESCRIPTION.md",
+  "changelog": "file://CHANGELOG",
+  "tagline": "Node-RED is a tool for wiring together hardware devices, APIs and online services in new and interesting ways",
+  "version": "0.0.3",
+  "healthCheckPath": "/",
+  "httpPort": 1880,
+  "addons": {
+    "localstorage": {}
+  },
+  "manifestVersion": 1,
+  "website": "https://nodered.org",
+  "contactEmail": "me@example.com",
+  "icon": "file://node-red.png",
+  "tags": [
+    "iot"
+  ],
+  "mediaLinks": [ "https://camo.githubusercontent.com/01ed64b01d73046a485ea82b645a3be529c64809/687474703a2f2f6e6f64657265642e6f72672f696d616765732f6e6f64652d7265642d73637265656e73686f742e706e67" ]
+}
