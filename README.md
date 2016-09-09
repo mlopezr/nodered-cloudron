@@ -4,9 +4,22 @@
 
 It's currently a single user app (meaning that within one instance everybody sees everything). The recommended use is to create a dedicated app instance per user or team.
 
-# Try it
+# Try it online
 
-Easy! Go to [Cloudron.io](https://cloudron.io/) and click on Demo.
+Easy! Go to [Cloudron.io](https://cloudron.io/) and click on Demo. Then install or use an existing demo instance of Node-RED.
+
+# Build and run locally
+
+Assuming you have Docker installed:
+
+```
+git clone https://github.com/mlopezr/nodered-cloudron.git
+cd nodered-cloudron
+docker build -t mynodered .
+docker run -it -p 1880:1880 mynodered
+```
+
+Then open http://localhost:1880 in your browser.
 
 # What's inside?
 
@@ -52,17 +65,4 @@ The latest version of Node-RED plus the following extensions:
 * node-red-node-wordpos
 * node-red-node-badwords
 * node-red-contrib-matrixbot
-
-# Build and run locally
-
-Assuming you have Docker installed:
-
-```
-git clone https://github.com/mlopezr/nodered-cloudron.git
-cd nodered-cloudron
-docker build -t mynodered .
-docker run -it -p 1880:1880 mynodered
-```
-
-Then open http://localhost:1880 in your browser.
 

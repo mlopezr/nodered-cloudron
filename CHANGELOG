@@ -1,2 +1,8 @@
+[0.0.4]
+* Runs as non-root
+
 [0.0.3]
 * Lots of new nodes
+
+[0.0.2]
+* Simple working version
